@@ -3,56 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-    .card {
-        background-color: bisque;
-        padding: 15px 15px 40px 40px;
-        font-family: poppins;
-        text-align: left;
-        border-radius: 25px;
-        box-shadow: 10px 10px 8px rgba(112, 45, 3, 0.3); /* Menambahkan shadow */
-        width: 40%; /* Mengatur lebar elemen .card */
-    }
-    h1 {
-        margin-left: 183px;
-        font-size: 32px;
-        color: rgb(48, 3, 63);
-    }
-    .bio {
-        font-size: 20px;
-        font-weight: 400;
-        color: rgb(36, 3, 47);
-        margin-top: 25px; 
-        position: relative;
-    }
-
-    .bio::before {
-        content: '';
-        border-bottom: 2px solid rgb(36, 3, 47); /* Menambahkan underline dengan warna dan lebar tertentu */
-        position: absolute;
-        top: -18px; /* Mengatur jarak -25px untuk tetap di atas biodata diri */
-        left: 0;
-        width: 100%; /* Panjang underline 100% (sama dengan panjang tabel) */
-    }
-
-    
-    table {
-            width: 100%;
-    }
-    th, td {
-        text-align: left;
-        padding: 5px;
-    }
-    </style>
 </head>
 <body>
     <nav class="card">
